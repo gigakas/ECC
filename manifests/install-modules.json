@@ -206,8 +206,9 @@
         "skills/django-celery",
         "skills/flutter-dart-code-review",
         "skills/frontend-a11y",
-        "skills/generating-python-installer",
+        "skills/hermes-imports",
         "skills/hexagonal-architecture",
+        "skills/inherit-legacy-style",
         "skills/motion-advanced",
         "skills/motion-foundations",
         "skills/motion-patterns",
@@ -306,19 +307,17 @@
         "skills/codebase-onboarding",
         "skills/codehealth-mcp",
         "skills/config-gc",
-        "skills/context-budget",
         "skills/delivery-gate",
         "skills/ecc-guide",
         "skills/ecc-recipes",
+        "skills/gateguard",
+        "skills/git-workflow",
         "skills/growth-log",
-        "skills/inherit-legacy-style",
         "skills/intent-driven-development",
-        "skills/loop-design-check",
-        "skills/product-lens",
         "skills/repo-scan",
         "skills/rules-distill",
         "skills/santa-method",
-        "skills/git-workflow"
+        "skills/skill-comply"
       ],
       "targets": [
         "claude",
@@ -347,14 +346,14 @@
       "kind": "skills",
       "description": "Parallel execution, benchmarking, data-throughput, latency, and recursive decision-ledger skills for faster evidence-backed work.",
       "paths": [
+        "skills/benchmark",
+        "skills/benchmark-methodology",
         "skills/benchmark-optimization-loop",
         "skills/data-throughput-accelerator",
         "skills/latency-critical-systems",
         "skills/parallel-execution-optimizer",
         "skills/recursive-decision-ledger",
-        "skills/agent-eval",
-        "skills/benchmark",
-        "skills/benchmark-methodology"
+        "skills/agent-eval"
       ],
       "targets": [
         "claude",
@@ -396,10 +395,6 @@
         "skills/springboot-security",
         "skills/evm-token-decimals",
         "the-security-guide.md",
-        "skills/gateguard",
-        "skills/healthcare-cdss-patterns",
-        "skills/healthcare-emr-patterns",
-        "skills/healthcare-eval-harness",
         "skills/safety-guard"
       ],
       "targets": [
@@ -427,14 +422,14 @@
       "description": "Research and API integration skills for deep investigations and model integrations.",
       "paths": [
         "skills/deep-research",
+        "skills/documentation-lookup",
         "skills/exa-search",
         "skills/research-ops",
         "skills/scientific-db-pubmed-database",
         "skills/scientific-db-uspto-database",
         "skills/scientific-pkg-gget",
         "skills/scientific-thinking-literature-review",
-        "skills/scientific-thinking-scholar-evaluation",
-        "skills/documentation-lookup"
+        "skills/scientific-thinking-scholar-evaluation"
       ],
       "targets": [
         "claude",
@@ -473,7 +468,8 @@
         "skills/brand-discovery",
         "skills/competitive-platform-analysis",
         "skills/competitive-report-structure",
-        "skills/marketing-campaign"
+        "skills/marketing-campaign",
+        "skills/product-lens"
       ],
       "targets": [
         "claude",
@@ -517,7 +513,8 @@
         "skills/terminal-ops",
         "skills/unified-notifications-ops",
         "skills/workspace-surface-audit",
-        "skills/mailtrap-email-integration"
+        "skills/mailtrap-email-integration",
+        "skills/opensource-pipeline"
       ],
       "targets": [
         "claude",
@@ -541,7 +538,7 @@
     {
       "id": "prediction-market-skills",
       "kind": "skills",
-      "description": "Public, non-advisory prediction-market and Itô basket research workflows with gated Itô API access.",
+      "description": "Public, non-advisory prediction-market and It\u00f4 basket research workflows with gated It\u00f4 API access.",
       "paths": [
         "skills/ito-basket-compare",
         "skills/ito-data-atlas-agent",
@@ -577,8 +574,8 @@
       "description": "Social publishing and distribution skills.",
       "paths": [
         "skills/crosspost",
-        "skills/x-api",
-        "skills/social-publisher"
+        "skills/social-publisher",
+        "skills/x-api"
       ],
       "targets": [
         "claude",
@@ -608,10 +605,10 @@
         "skills/fal-ai-media",
         "skills/manim-video",
         "skills/remotion-video-creation",
+        "skills/taste",
         "skills/ui-demo",
         "skills/video-editing",
-        "skills/videodb",
-        "skills/taste"
+        "skills/videodb"
       ],
       "targets": [
         "claude",
@@ -641,7 +638,14 @@
         "scripts/orchestrate-codex-worker.sh",
         "scripts/orchestrate-worktrees.js",
         "scripts/orchestration-status.js",
-        "skills/dmux-workflows"
+        "skills/dmux-workflows",
+        "skills/orch-add-feature",
+        "skills/orch-build-mvp",
+        "skills/orch-change-feature",
+        "skills/orch-fix-defect",
+        "skills/orch-pipeline",
+        "skills/orch-refine-code",
+        "skills/plan-orchestrate"
       ],
       "targets": [
         "claude",
@@ -663,12 +667,12 @@
       "description": "Swift, SwiftUI, and Apple platform skills including concurrency, persistence, and design patterns.",
       "paths": [
         "skills/foundation-models-on-device",
+        "skills/ios-icon-gen",
         "skills/liquid-glass-design",
         "skills/swift-actor-persistence",
         "skills/swift-concurrency-6-2",
         "skills/swift-protocol-di-testing",
-        "skills/swiftui-patterns",
-        "skills/ios-icon-gen"
+        "skills/swiftui-patterns"
       ],
       "targets": [
         "claude",
@@ -719,17 +723,10 @@
         "skills/team-builder",
         "skills/agent-payment-x402",
         "skills/autonomous-agent-harness",
+        "skills/context-budget",
         "skills/gan-style-harness",
-        "skills/hermes-imports",
-        "skills/openclaw-persona-forge",
-        "skills/opensource-pipeline",
-        "skills/orch-add-feature",
-        "skills/orch-build-mvp",
-        "skills/orch-change-feature",
-        "skills/orch-fix-defect",
-        "skills/orch-pipeline",
-        "skills/orch-refine-code",
-        "skills/plan-orchestrate"
+        "skills/loop-design-check",
+        "skills/openclaw-persona-forge"
       ],
       "targets": [
         "claude",
@@ -755,21 +752,22 @@
       "kind": "skills",
       "description": "Deployment workflows, Docker patterns, and infrastructure skills.",
       "paths": [
+        "skills/canary-watch",
         "skills/cisco-ios-patterns",
         "skills/deployment-patterns",
         "skills/docker-patterns",
+        "skills/flox-environments",
+        "skills/generating-python-installer",
         "skills/homelab-network-readiness",
         "skills/homelab-network-setup",
-        "skills/netmiko-ssh-automation",
-        "skills/network-bgp-diagnostics",
-        "skills/network-config-validation",
-        "skills/network-interface-health",
-        "skills/canary-watch",
-        "skills/flox-environments",
         "skills/homelab-pihole-dns",
         "skills/homelab-vlan-segmentation",
         "skills/homelab-wireguard-vpn",
         "skills/kubernetes-patterns",
+        "skills/netmiko-ssh-automation",
+        "skills/network-bgp-diagnostics",
+        "skills/network-config-validation",
+        "skills/network-interface-health",
         "skills/uncloud"
       ],
       "targets": [
@@ -796,8 +794,8 @@
       "kind": "skills",
       "description": "Production machine-learning engineering workflows for data contracts, reproducible training, evaluation, deployment, monitoring, and rollback.",
       "paths": [
-        "skills/mle-workflow",
         "skills/ml-adoption-playbook",
+        "skills/mle-workflow",
         "skills/pytorch-patterns",
         "skills/recsys-pipeline-architect"
       ],
@@ -855,6 +853,34 @@
       ],
       "defaultInstall": false,
       "cost": "heavy",
+      "stability": "stable"
+    },
+    {
+      "id": "healthcare-domain",
+      "kind": "skills",
+      "description": "Healthcare domain skills for EMR/EHR patterns, clinical decision support, and healthcare evaluation harnesses.",
+      "paths": [
+        "skills/healthcare-cdss-patterns",
+        "skills/healthcare-emr-patterns",
+        "skills/healthcare-eval-harness"
+      ],
+      "targets": [
+        "claude",
+        "claude-project",
+        "cursor",
+        "antigravity",
+        "codex",
+        "opencode",
+        "codebuddy",
+        "joycode",
+        "qwen",
+        "zed"
+      ],
+      "dependencies": [
+        "platform-configs"
+      ],
+      "defaultInstall": false,
+      "cost": "medium",
       "stability": "stable"
     },
     {
