@@ -23,7 +23,7 @@ Session Start → config-health scans rules/hooks (soft warnings, never blocks)
 Session Work → config-health monitors hook wiring (PreToolUse guard)
 Session End → delivery-gate verifies (hard block, exit 2)
 
-Boundary: "Can this be fixed retroactively?" Config drift → warn. Missing growth-log → block.
+Boundary: "Can this be fixed retroactively?" Config drift → config-health warns. Missing growth-log → delivery-gate blocks (hard exit 2).
 
 ## What It Monitors
 
@@ -43,6 +43,7 @@ Rule staleness:
 rule "双池强制触发" last fired 15 sessions ago → WARN: may be dead
 
 ## Install
+**Important:** Merge these hook entries into your existing `hooks` object — do not replace it, or you will lose hooks like delivery-gate. Also copy `scripts/config-health.py` to `~/.claude/scripts/config-health.py` and verify it exists before enabling.
 
 ```json
 {
